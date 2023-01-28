@@ -1,9 +1,9 @@
 import React from 'react';
 
-function About(){
-  return(
+function About() {
+  return (
     <>
-    <a>About</a>
+      <p className='textCenter'>About</p>
     </>
   )
 }
