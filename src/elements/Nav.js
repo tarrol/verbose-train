@@ -7,7 +7,7 @@ function Nav() {
     textAlign: 'center',
     paddingLeft: '20px',
     paddingRight: '20px',
-    color: 'blue',
+    color: 'lightblue',
   }
   return (
     <nav style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', textAlign: 'center' }}>
