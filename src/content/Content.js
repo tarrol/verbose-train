@@ -10,11 +10,11 @@ function Content() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/About' element={<About />} />
-        <Route path='/Portfolio' element={<Portfolio />} />
-        <Route path='/Contact' element={<Contact />} />
-        <Route path='/Resume' element={<Resume />} />
+        <Route path='/verbose-train/' element={<Home />} />
+        <Route path='/verbose-train/About' element={<About />} />
+        <Route path='/verbose-train/Portfolio' element={<Portfolio />} />
+        <Route path='/verbose-train/Contact' element={<Contact />} />
+        <Route path='/verbose-train/Resume' element={<Resume />} />
       </Routes>
     </Router>
   );
