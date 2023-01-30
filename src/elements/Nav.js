@@ -11,10 +11,10 @@ function Nav() {
   }
   return (
     <nav style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', textAlign: 'center' }}>
-      <ul style={style}><a href='/about'>About</a></ul>
-      <ul style={style}><a href='/contact'>Contact</a></ul>
-      <ul style={style}><a href='/portfolio'>Portfolio</a></ul>
-      <ul style={style}><a href='/resume'>Resume</a></ul>
+      <ul style={style}><a href='/verbose-train/about'>About</a></ul>
+      <ul style={style}><a href='/verbose-train/contact'>Contact</a></ul>
+      <ul style={style}><a href='/verbose-train/portfolio'>Portfolio</a></ul>
+      <ul style={style}><a href='/verbose-train/resume'>Resume</a></ul>
     </nav>
   )
 }
