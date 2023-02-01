@@ -64,6 +64,11 @@ footer a:hover {
   color: lightblue;
 }
 
+.false:hover{
+  color: white;
+  cursor: pointer;
+}
+
 .navActive {
   color: grey;
   cursor: default;
