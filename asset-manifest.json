@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/verbose-train/static/css/main.55888743.css",
-    "main.js": "/verbose-train/static/js/main.fb2c6343.js",
+    "main.css": "/verbose-train/static/css/main.f7cd7542.css",
+    "main.js": "/verbose-train/static/js/main.7f342bef.js",
     "static/js/787.b9996671.chunk.js": "/verbose-train/static/js/787.b9996671.chunk.js",
     "index.html": "/verbose-train/index.html",
-    "main.55888743.css.map": "/verbose-train/static/css/main.55888743.css.map",
-    "main.fb2c6343.js.map": "/verbose-train/static/js/main.fb2c6343.js.map",
+    "main.f7cd7542.css.map": "/verbose-train/static/css/main.f7cd7542.css.map",
+    "main.7f342bef.js.map": "/verbose-train/static/js/main.7f342bef.js.map",
     "787.b9996671.chunk.js.map": "/verbose-train/static/js/787.b9996671.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55888743.css",
-    "static/js/main.fb2c6343.js"
+    "static/css/main.f7cd7542.css",
+    "static/js/main.7f342bef.js"
   ]
 }
