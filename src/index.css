@@ -1,44 +1,44 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-img{
-  width: 100px
+img {
+  width: 100px;
 }
 
-header{
+header {
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   background-color: black;
   color: white;
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   padding: 1em;
 }
 
 a {
   color: var(--light);
   text-decoration: none;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 a:hover {
   opacity: 1;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-footer{
+footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -46,29 +46,39 @@ footer{
   font-size: 36px;
 }
 footer a {
-  opacity: .5;
+  opacity: 0.5;
   margin: 10px 20px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 footer a:hover {
   opacity: 1;
 }
 
-.textCenter{
+.false {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: lightblue;
+}
+
+.navActive {
+  color: grey;
+  cursor: default;
+  text-shadow: 3px 3px 15px rgba(255, 255, 255, 0.5);
+}
+.textCenter {
   text-align: center;
 }
 
-.div-container{
+.div-container {
   padding-top: 10rem;
   padding-bottom: 2.5rem;
 }
 
-#root{
+#root {
   position: relative;
   min-height: 100vh;
-} 
-
-
-
-
+}

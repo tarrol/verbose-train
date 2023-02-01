@@ -1,22 +1,27 @@
-import React from 'react';
+import React, { useEffect } from "react";
 
-function Nav() {
-  const style = {
-    display: 'flex',
-    justifyContent: 'center',
-    textAlign: 'center',
-    paddingLeft: '20px',
-    paddingRight: '20px',
-    color: 'lightblue',
-  }
+function Nav(props) {
+  const { pages = [], setCurrentPage, currentPage } = props;
+
+  useEffect(() => {
+    document.title = currentPage.name;
+  }, [currentPage]);
+
   return (
-    <nav style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', textAlign: 'center' }}>
-      <ul style={style}><a href='/verbose-train/about'>About</a></ul>
-      <ul style={style}><a href='/verbose-train/contact'>Contact</a></ul>
-      <ul style={style}><a href='/verbose-train/portfolio'>Portfolio</a></ul>
-      <ul style={style}><a href='/verbose-train/resume'>Resume</a></ul>
+    <nav
+      style={{
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "center",
+        textAlign: "center",
+      }}>
+      {pages.map((Page) => (
+        <li className={`${currentPage.name === Page.name && "navActive"}`} key={Page.name}>
+          <span onClick={() => setCurrentPage(Page)}>{Page.name}</span>
+        </li>
+      ))}
     </nav>
-  )
+  );
 }
 
-export default Nav
+export default Nav;
